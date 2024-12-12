@@ -41,8 +41,8 @@ print("==== demonstration of tuple/list element assignment ===")
 
 # Uncommeent the 2 lines below to see an error if we try to
 # change an element in a list and print it
-#myList[1] = "list!"
-#print( myList[1] )
+myList[1] = "list!"
+print( myList[1] )
 
 # Whether you have a list or a tuple, you can still count how many elements
 # they have using the len() command:
